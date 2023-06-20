@@ -1,0 +1,89 @@
+@import './vendor/fonts/fonts.css';
+
+body {
+  background-color: #f1f1a1;
+  font-family: 'Merriweather', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #000;
+}
+
+.todo_form-add,
+.todo_form-delete-all {
+  background-color: #468ca4;
+}
+
+.todo_title {
+  font-family: 'WorkSans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #000;
+  text-align: center;
+}
+
+.todo_form-input {
+  font-family: 'Merriweather', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #000;
+  width: 430px;
+}
+
+.todo_form-add,
+.todo_form-delete-all {
+  font-family: 'Merriweather', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #000;
+}
+
+.todo {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.todo_form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo_list-button-copy {
+  background-image: url(./image/copy.svg);
+  height: 30px;
+  width: 30px;
+  background-size: contain;
+}
+
+.todo_list-button-edit {
+  background-image: url(./image/edit.svg);
+  height: 30px;
+  width: 30px;
+  background-size: contain;
+}
+
+.todo_list-button-delete {
+  background-image: url(./image/delete.svg);
+  height: 30px;
+  width: 30px;
+  background-size: contain;
+}
+
+.todo_list-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo_list {
+  list-style: none;
+}
