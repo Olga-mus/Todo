@@ -14,29 +14,34 @@
         <form class="todo_form">
 
 
-            <input class="todo_form-input" type="text" name="Задача" placeholder="Название города">
+            <input class="todo_form-input" type="text" placeholder="Название города">
 
             <input class="todo_form-add" type="button" value="Добавить">
         </form>
 
         <ul class="todo_list">
-            <li class="todo_list-item">
-                <label class="todo_list-label">
-                    <div class="">
-                        <input class="todo_list-checkbox" type="checkbox">
-                        <span>Санкт-Петербург</span>
-                    </div>
-                    <div>
-                        <button class="todo_list-button-copy"></button>
-                        <button class="todo_list-button-edit"></button>
-                        <button class="todo_list-button-delete"></button>
-                    </div>
-                </label>
-            </li>
+
         </ul>
-        <p class="todo_subtitle">Ваш гастрольный тур состоялся! Вы посетили все запланированные города👏</p>
+        <p class="todo_subtitle hidden">Ваш гастрольный тур состоялся! Вы посетили все запланированные города👏</p>
         <button class="todo_form-delete-all">Удалить выбранное</button>
+        <audio class="play" src="./audio/audio.mp3"></audio>
     </div>
+
+    <template id="template">
+        <li class="todo_list-item">
+            <label class="todo_list-label">
+                <div>
+                    <input class="todo_list-checkbox" type="checkbox">
+                    <span class="todo_list-text"></span>
+                </div>
+                <div>
+                    <button class="todo_list-button-copy"></button>
+                    <button class="todo_list-button-edit"></button>
+                    <button class="todo_list-button-delete"></button>
+                </div>
+            </label>
+        </li>
+    </template>
     <script src="./script.js"></script>
 </body>
 

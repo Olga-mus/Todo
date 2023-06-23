@@ -98,3 +98,7 @@ body {
 .todo_list {
   list-style: none;
 }
+
+.hidden {
+  visibility: hidden;
+}
