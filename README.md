@@ -21,7 +21,7 @@ Nested БЭМ, flexbox, HTML, CSS, JavaScript.
 
 **Ссылка на проект:**
 
-[GitHub Pages](https://olga-mus.github.io/russian-travel/index.html)
+[GitHub Pages](https://olga-mus.github.io/Todo/index.html)
 
 **Статус проекта:**
 
