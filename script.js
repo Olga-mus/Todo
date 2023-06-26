@@ -65,7 +65,9 @@ function handleCopy(evt) {
 //редактирование айтема
 function handleEdit(evt) {
   item = evt.target.closest('.todo_list-item');
-  const text = item.textContent;
+  console.log(item);
+  const text = item.innerText;
+  console.log(text);
   input.value = text;
   buttonAdd.value = 'Изменить';
   buttonAdd.removeEventListener('click', handleAddItem);
